@@ -1,0 +1,20 @@
+.list-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  background-image: url("https://source.unsplash.com/collection/1163637/480x480");
+  background-size: cover;
+  display: flex;
+  margin: 20px;
+  height: 150px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: white;
+  }
+
+}
